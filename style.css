@@ -1,1 +1,12 @@
-/* Start coding here */
+#username:hover {
+  border-color: khaki;
+}
+#password:hover {
+  border-color: khaki;
+}
+:disabled {
+  background-color: lightgray;
+}
+button:hover {
+  color: pink;
+}
