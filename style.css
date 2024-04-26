@@ -1,1 +1,13 @@
 /* Start coding here */
+/*กำหนด Style ให้กับ Input ที่มีสถานะเป็น “disabled” ให้มีสีพื้นหลังเป็นสี lightgrey
+กำหนด Style ให้กับ Input เวลาที่มีผู้ใช้งานมา Hover บน Input ให้มีสีขอบของ Input เป็นสี khaki
+กำหนด Style ให้กับ Button เวลาที่มีผู้ใช้งานมา Hover บน Button ให้ข้อความภายในปุ่มมีสี pink*/
+input:disabled {
+  background-color: lightgray;
+}
+input:hover {
+  border-color: khaki;
+}
+button:hover {
+  color: pink;
+}
